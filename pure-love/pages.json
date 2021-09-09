@@ -1,0 +1,68 @@
+{
+    "pages": [{
+            "path": "pages/index/index",
+            "style": {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/contacts/contacts",
+            "style": {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/found/found",
+            "style": {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/myself/myself",
+            "style": {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#1296db",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "white",
+        "backgroundColor": "#f8f8ff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/img/msg.png",
+                "selectedIconPath": "static/img/msgSelect.png",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/contacts/contacts",
+                "iconPath": "/static/img/contacts.png",
+                "selectedIconPath": "static/img/contactsSelect.png",
+                "text": "通讯录"
+            },
+            {
+                "pagePath": "pages/found/found",
+                "iconPath": "static/img/found.png",
+                "selectedIconPath": "static/img/foundSelect.png",
+                "text": "发现"
+            },
+            {
+                "pagePath": "pages/myself/myself",
+                "iconPath": "static/img/self.png",
+                "selectedIconPath": "static/img/selfSelect.png",
+                "text": "个人"
+            }
+        ]
+    }
+}
