@@ -1,5 +1,5 @@
 <template>
-  <!-- 这是消息界面 -->
+  <!-- 这是通讯录界面 -->
   <view class="content">
     <view class="tab-top-bar">
       <view class="tab-top-bar-left">
@@ -7,29 +7,44 @@
           <image src="../../static/indexImages/head.png"></image>
         </view>
       </view>
-	  <view class="tab-top-bar-center">
-	  	<view class="tab-top-bar-center-tag">
-	  		通讯录
-	  	</view>
-	  </view>
+      <view class="tab-top-bar-center">
+        <view class="tab-top-bar-center-tag"> 通讯录 </view>
+      </view>
       <view class="tab-top-bar-right">
         <view class="tab-top-bar-right-add">
-          <image src="../../static/indexImages/addFriends.png" @click="addFriends"></image>
+          <image
+            src="../../static/indexImages/addFriends.png"
+            @click="addFriends"
+          ></image>
         </view>
       </view>
     </view>
     <view class="tab-bootom-bar">
-      <seacher-bar backg="grey"></seacher-bar>
+      <view class="tab-bootom-bar-top">
+        <seacher-bar backg="grey"></seacher-bar>
+      </view>
+      <view class="tab-bootom-bar-bottom">
+        <view class="tab-bootom-bar-bottom-top">
+          <new-apply textShow="新朋友"></new-apply>
+          <new-apply textShow="群通知"></new-apply>
+        </view>
+        <view class="tab-bootom-bar-bottom-bottom">
+          <friend-group></friend-group>
+        </view>
+      </view>
     </view>
   </view>
 </template>
 
 <script>
 import SeacherBar from "../../components/searcher/searcher.vue";
-import MsgList from "../../components/msg-list/msg-list.vue";
+import NewApply from "../../components/apply-group/apply-group.vue";
+import FriendGroup from "../../components/friends-group/friends-group.vue";
 export default {
   components: {
     SeacherBar,
+    NewApply,
+    FriendGroup,
   },
   data() {
     return {
@@ -45,14 +60,18 @@ export default {
     }, 1000);
   },
   methods: {
-	  addFriends(){
-		  console.log('点击了添加朋友按钮')
-	  }
+    addFriends() {
+      console.log("点击了添加朋友按钮");
+    },
   },
 };
 </script>
 
 <style scoped>
+.content {
+  height: 100%;
+  width: 100%;
+}
 .tab-top-bar {
   height: 180rpx;
   width: 100%;
@@ -64,11 +83,13 @@ export default {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  overflow: hidden;
 }
 
 .tab-bootom-bar {
   margin-top: 180rpx;
   z-index: 0;
+  background-color: #e9f0f6;
 }
 
 .tab-top-bar-left {
@@ -77,6 +98,16 @@ export default {
   justify-content: center;
   align-items: center;
   margin-top: 50rpx;
+}
+
+.tab-top-bar-center {
+  margin-top: 50rpx;
+}
+
+.tab-top-bar-center-tag {
+  font-size: 35rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fffffb;
 }
 
 .tab-top-bar-right {
@@ -96,13 +127,6 @@ export default {
   margin-top: 10rpx;
 }
 
-.tab-top-bar-left-nickname {
-  margin-left: 20rpx;
-  font-size: 35rpx;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fffffb;
-}
-
 .tab-top-bar-right-add {
   text-align: center;
 }
@@ -111,5 +135,20 @@ export default {
   height: 60rpx;
   width: 60rpx;
   margin-right: 20rpx;
+}
+
+.tab-bootom-bar-bottom {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.tab-bootom-bar-bottom-top {
+  background-color: #fdfeff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200rpx;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 </style>

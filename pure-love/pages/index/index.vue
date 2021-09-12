@@ -66,6 +66,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  overflow: hidden;
 }
 
 .tab-bootom-bar {
