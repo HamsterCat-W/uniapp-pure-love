@@ -24,7 +24,7 @@ export default {
   onLoad() {},
   methods: {
     lookUp() {
-      if (this.textShow === "新的朋友") {
+      if (this.textShow === "新朋友") {
         console.log("点击了查看好友申请页面");
       } else if (this.textShow === "群通知") {
         console.log("点击了查看群通知页面");
