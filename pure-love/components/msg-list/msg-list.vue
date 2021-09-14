@@ -1,6 +1,11 @@
 <template>
   <view class="msg-list-content">
-    <view class="list-content" v-for="(item, index) in msgList" :key="index" @click="select(item)">
+    <view
+      class="list-content"
+      v-for="(item, index) in msgList"
+      :key="index"
+      @click="select(item)"
+    >
       <view class="list-content-left">
         <image src="../../static/indexImages/head.png"></image>
       </view>
@@ -26,13 +31,12 @@ export default {
       msgList: [1, 2, 3, 4, 5, 6, 7, 8, 1, 1, 1, 1],
     };
   },
-  methods:{
-	  select(e){
-		  console.log(e)
-		  console.log('点击了xxx')
-		  
-	  }
-  }
+  methods: {
+    select(e) {
+      console.log(e);
+      console.log("点击了xxx");
+    },
+  },
 };
 </script>
 
@@ -47,7 +51,7 @@ export default {
 }
 
 .list-content:active {
-	background-color: #e7e8e9;
+  background-color: #e7e8e9;
 }
 
 .list-content-left {

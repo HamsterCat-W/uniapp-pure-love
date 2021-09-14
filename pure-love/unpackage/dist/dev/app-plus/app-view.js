@@ -584,7 +584,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../HBuilder/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 13);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.msg-list-content[data-v-2e536144] {\r\n  width: 100%;\n}\n.list-content[data-v-2e536144] {\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  width: 100%;\n}\n.list-content[data-v-2e536144]:active {\r\n\tbackground-color: #e7e8e9;\n}\n.list-content-left[data-v-2e536144] {\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n  -webkit-align-items: center;\r\n          align-items: center;\r\n  -webkit-box-pack: center;\r\n  -webkit-justify-content: center;\r\n          justify-content: center;\r\n  margin: 20rpx;\r\n  width: 100rpx;\n}\n.list-content-left uni-image[data-v-2e536144] {\r\n  height: 100rpx;\r\n  width: 100rpx;\r\n  border-radius: 50%;\n}\n.list-content-right[data-v-2e536144] {\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n  -webkit-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-align: center;\r\n  -webkit-align-items: center;\r\n          align-items: center;\r\n  -webkit-box-pack: center;\r\n  -webkit-justify-content: center;\r\n          justify-content: center;\r\n  -webkit-box-flex: 1;\r\n  -webkit-flex: 1;\r\n          flex: 1;\r\n  height: 100rpx;\r\n  margin-right: 20rpx;\r\n  margin-top: 20rpx;\n}\n.list-content-right-top[data-v-2e536144] {\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  width: 100%;\r\n  font-size: 35rpx;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  -webkit-box-pack: justify;\r\n  -webkit-justify-content: space-between;\r\n          justify-content: space-between;\n}\n.list-content-right-bottom[data-v-2e536144] {\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  width: 100%;\r\n  font-size: 26rpx;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  margin-top: 6rpx;\r\n  -webkit-box-pack: justify;\r\n  -webkit-justify-content: space-between;\r\n          justify-content: space-between;\n}\n.list-content-right-bottom-content-num[data-v-2e536144] {\r\n  background-color: #d93a49;\r\n  border-radius: 50%;\r\n  width: 30rpx;\r\n  margin-right: 10rpx;\r\n  height: 30rpx;\r\n  text-align: center;\r\n  font-size: 26rpx;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  padding: 4rpx;\r\n  color: #fffffb;\n}\r\n", ""]);
+exports.push([module.i, "\n.msg-list-content[data-v-2e536144] {\n  width: 100%;\n}\n.list-content[data-v-2e536144] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  width: 100%;\n}\n.list-content[data-v-2e536144]:active {\n  background-color: #e7e8e9;\n}\n.list-content-left[data-v-2e536144] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  margin: 20rpx;\n  width: 100rpx;\n}\n.list-content-left uni-image[data-v-2e536144] {\n  height: 100rpx;\n  width: 100rpx;\n  border-radius: 50%;\n}\n.list-content-right[data-v-2e536144] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  height: 100rpx;\n  margin-right: 20rpx;\n  margin-top: 20rpx;\n}\n.list-content-right-top[data-v-2e536144] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  width: 100%;\n  font-size: 35rpx;\n  font-family: Arial, Helvetica, sans-serif;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n}\n.list-content-right-bottom[data-v-2e536144] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  width: 100%;\n  font-size: 26rpx;\n  font-family: Arial, Helvetica, sans-serif;\n  margin-top: 6rpx;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n}\n.list-content-right-bottom-content-num[data-v-2e536144] {\n  background-color: #d93a49;\n  border-radius: 50%;\n  width: 30rpx;\n  margin-right: 10rpx;\n  height: 30rpx;\n  text-align: center;\n  font-size: 26rpx;\n  font-family: Arial, Helvetica, sans-serif;\n  padding: 4rpx;\n  color: #fffffb;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1840,7 +1840,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../HBuilder/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 13);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.apply-group-box[data-v-419a6946] {\r\n  height: 100rpx;\r\n  width: 100%;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n  -webkit-justify-content: space-between;\r\n          justify-content: space-between;\r\n  -webkit-box-align: center;\r\n  -webkit-align-items: center;\r\n          align-items: center;\n}\n.apply-group-box uni-image[data-v-419a6946] {\r\n  height: 70rpx;\r\n  width: 70rpx;\n}\n.apply-group-tag[data-v-419a6946] {\r\n  font-size: 35rpx;\r\n  margin-left: 20rpx;\r\n  font-family: Arial, Helvetica, sans-serif;\n}\n.img-point[data-v-419a6946] {\r\n  position: relative;\r\n  left: 280rpx;\n}\r\n", ""]);
+exports.push([module.i, "\n.apply-group-box[data-v-419a6946] {\r\n  height: 100rpx;\r\n  width: 100%;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n  -webkit-justify-content: space-between;\r\n          justify-content: space-between;\r\n  -webkit-box-align: center;\r\n  -webkit-align-items: center;\r\n          align-items: center;\n}\n.apply-group-box[data-v-419a6946]:active {\r\n  background-color: #e7e8e9;\n}\n.apply-group-box uni-image[data-v-419a6946] {\r\n  height: 70rpx;\r\n  width: 70rpx;\n}\n.apply-group-tag[data-v-419a6946] {\r\n  font-size: 35rpx;\r\n  margin-left: 20rpx;\r\n  font-family: Arial, Helvetica, sans-serif;\n}\n.img-point[data-v-419a6946] {\r\n  position: relative;\r\n  left: 280rpx;\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1950,9 +1950,60 @@ var render = function() {
         }),
         1
       ),
-      _c("v-uni-view", { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } }, [
-        _vm._v("这是列表")
-      ])
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+        _vm._l(_vm._$g(4, "f"), function(item, index, $21, $31) {
+          return _c(
+            "v-uni-view",
+            {
+              key: item,
+              staticClass: _vm._$g("4-" + $31, "sc"),
+              attrs: { _i: "4-" + $31 },
+              on: {
+                click: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [
+              _c(
+                "v-uni-view",
+                {
+                  staticClass: _vm._$g("5-" + $31, "sc"),
+                  attrs: { _i: "5-" + $31 }
+                },
+                [
+                  _c("v-uni-image", {
+                    attrs: { src: _vm._$g("6-" + $31, "a-src"), _i: "6-" + $31 }
+                  })
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                {
+                  staticClass: _vm._$g("7-" + $31, "sc"),
+                  attrs: { _i: "7-" + $31 }
+                },
+                [
+                  _c(
+                    "v-uni-view",
+                    {
+                      staticClass: _vm._$g("8-" + $31, "sc"),
+                      attrs: { _i: "8-" + $31 }
+                    },
+                    [_vm._v("抚耳听风")]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        }),
+        1
+      )
     ],
     1
   )
@@ -2045,7 +2096,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../HBuilder/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 13);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.friends-grop[data-v-9266d5d8] {\r\n  margin-top: 20rpx;\r\n  background-color: #fdfeff;\r\n  width: 100%;\n}\n.friends-grop-nav[data-v-9266d5d8] {\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: flex;\r\n\tmargin-bottom: 20rpx;\n}\n.friends-grop-nav-bar[data-v-9266d5d8] {\r\n\tmargin: 20rpx;\r\n\theight: 50rpx;\r\n\twidth: 100rpx;\r\n\ttext-align: center;\r\n\tborder-radius: 30rpx;\n}\n.select[data-v-9266d5d8] {\r\n\tbackground-color: #e0f2fe;\r\n\tcolor:#7bbfea ;\n}\r\n", ""]);
+exports.push([module.i, "\n.friends-grop[data-v-9266d5d8] {\n  margin-top: 20rpx;\n  background-color: #fdfeff;\n  width: 100%;\n}\n.friends-grop-nav[data-v-9266d5d8] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  margin-bottom: 20rpx;\n}\n.friends-grop-nav-bar[data-v-9266d5d8] {\n  margin: 20rpx;\n  height: 50rpx;\n  width: 100rpx;\n  text-align: center;\n  border-radius: 30rpx;\n}\n.select[data-v-9266d5d8] {\n  background-color: #e0f2fe;\n  color: #7bbfea;\n}\n.friends-grop-list[data-v-9266d5d8] {\n  width: 100%;\n}\n.friends-grop-list-item-bar[data-v-9266d5d8] {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-pack: start;\n  -webkit-justify-content: flex-start;\n          justify-content: flex-start;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin: 20rpx;\n}\n.friends-grop-list-item-bar[data-v-9266d5d8] :active {\n  background-color: #e7e8e9;\n}\n.left uni-image[data-v-9266d5d8] {\n  height: 80rpx;\n  width: 80rpx;\n  border-radius: 50%;\n}\n.right[data-v-9266d5d8] {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n}\n.friends-grop-list-item-name[data-v-9266d5d8] {\n  margin-left: 20rpx;\n  font-size: 35rpx;\n  font-family: Arial, Helvetica, sans-serif;\n  border-bottom: 1rpx solid #f1f4f3;\n  padding: 20rpx;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

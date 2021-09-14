@@ -43,6 +43,10 @@ export default {
   align-items: center;
 }
 
+.apply-group-box:active {
+  background-color: #e7e8e9;
+}
+
 .apply-group-box image {
   height: 70rpx;
   width: 70rpx;
